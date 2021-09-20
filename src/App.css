@@ -1,38 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Nunito:wght@400;700&display=swap');
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*font*/
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h6, p {
+  font-family: 'Nunito', sans-serif !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+/*font size*/
+h1 {
+  font-size: 1.5rem !important;
+}
+
+h2, h3  {
+  font-size: 1.1rem !important;
+}
+
+h4 {
+  font-size: 1.1rem !important;
+}
+
+h5, h6 ,p {
+  font-size: 1.2rem !important;
+}
+
+/*font weight*/
+h1, h2, h3, h6 {
+  font-weight: 700 !important;
+}
+
+h4 {
+  font-weight: 500 !important;
+}
+
+h5, p {
+  font-weight: 400 !important;
+}
+
+/*font color*/
+h3 {
+  color: #15e9fd !important;
+}
+
+
+
+/*--------------------*/
+.navbar-expand {
+  padding-top: 0 !important;
+  flex-wrap: wrap !important;
+  background-color: #fff !important;
+  border-bottom: 2px solid rgb(230, 230, 230);
+}
+
+.Nav-top_bar-bg {
+  width: 100%;
+  padding: 6px 0;
+  background-color: #e4e4e4;
+}
+
+.Nav-bottom_bar {
+  padding-top: 10px;
+}
+
+.List-no-style.d-flex {
+  margin: 0 auto;
+  max-width: 1320px;
+  justify-content: flex-end;
+}
+
+.padd-space {
+  padding: 2em 0;
+}
+
+.padd-sides {
+  padding: 0 1em;
+}
+
+.carousel {
+  padding-top: 100px !important;
+}
+
+.companie-process {
+  display: flex !important;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+}
+
+.companie-slide {
+  min-height: 117px;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.companie-slide span {
+  padding-top: 20px;
+}
+
+.companie-process img {
+  max-width: 70px;
+  background-color: #ffff;
+}
+
+.z-index-col .col {
+  z-index: 9;
+}
+
+.companie-process span {
+  padding-top: 20px;
+}
+
+.pos-relative {
+  position: relative;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hr-bar {
+  margin: 0;
+  position: absolute;
+  top: 4.2em;
+  width: 84% !important;
+  height: 2px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Carousel-caption_top {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  top: 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Carousel-caption_top .carousel-caption{ 
+  position: initial;
+}
+
+.Custom-col-width {
+  width: 15% !important;
+  padding: 0 4px !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.f-widht {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.d-flex li {
+  padding: 0 10px;
+}
+
+.d-flex li svg {
+  margin: 0 7px;
+}
+
+.Dropmenu-lng a {
+  padding: 0;
+}
+
+.List-no-style {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.List-no-style li a {
+  color: rgb(111, 111, 111);
+  text-decoration: none;
+}
+
+.Companies-steps-box {
+  position: relative;
+}
+
+.Companies-steps-box img {  
+  width: 100%;
+}
+
+.Companies-steps-box h4 {
+  position: absolute;
+  left: .2em;
+  bottom: 0;
+}
+
+.card {
+  border: none !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px !important;
+  height: 10px !important;
+  border-top: inherit !important;
+  border-bottom: inherit !important;
+  border-radius: 20px;
+}
+
+.footer-img {
+  text-align: center;
 }
